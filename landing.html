@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Service</a></li>
+                </ul>
+                <div class="logo">
+                    <img src="sources/icons/Logo.svg" height="40px" alt="">
+                </div>
+                <ul>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+                <div class="menubar">
+                    <img onclick="fn()" src="sources/shapes/menubar.svg" height="30px" alt="">
+                </div>
+            </nav>
+
+            <div class="hero">
+                <div class="hero-slide">
+                    <div class="left">
+                        <h1>A Venture with Passion</h1>
+                        <p>Continually whiteboard viral ROI with functional e-services Enthusiastically fabricate equity
+                            invested communities rather than cross-media markets.</p>
+                        <button>GET QUOTE</button>
+                    </div>
+                    <div class="right">
+                        <img src="sources/shapes/Blob.png" alt="">
+                    </div>
+                </div>
+                <div class="curve">
+                    <img src="sources/shapes/separator hero.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="slide-menu" id="slide-menu">
+            <img onclick="fn2()" src="sources/shapes/close.svg" alt="">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </div>
+        <div class="curve">
+            <img src="sources/shapes/separator hero.svg" alt="">
+        </div>
+    </header>
+    <section class="glimpses">
+        <div class="container">
+            <div class="glimpses-title">
+                <h1>Glimpses</h1>
+                <p>Our workplace can be best previewed in photos</p>
+            </div>
+            <div class="glimpses-img">
+                <div class="left">
+                    <img src="sources/shapes/Image (Left).png" alt="">
+                </div>
+                <div class="right">
+                    <img src="sources/shapes/Image (Top-Right).png" alt="">
+                    <img src="sources/shapes/Image (Bottom-Right).png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="best-team">
+        <div class="separator">
+            <img src="sources/shapes/Separator.svg" alt="">
+        </div>
+        <div class="container">
+
+            <div class="best-team-badge">
+                <img src="sources/shapes/badge.png" alt="">
+            </div>
+            <h2>An Awesome Team</h2>
+            <p>Rapidiously actualize client-based products before out-of-the-box leadership skills.</p>
+        </div>
+    </section>
+    <footer>
+        <div class="newsletter">
+            <h1>Newsletter</h1>
+            <form action="">
+                <input type="email" placeholder="Email Address"><button>Subscribe</button><img
+                    src="sources/icons/clarity_email-line.svg" alt="">
+            </form>
+            <button id="bt">Subscribe</button>
+            <p>We will send occasional newsletter to keep you informed</p>
+        </div>
+        <div class="bottom-text">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Disclaimer</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+            <div class="socials">
+                <a href=""><img src="sources/shapes/Facebook.svg" alt=""></a>
+                <a href=""><img src="sources/shapes/Twitter.svg" alt=""></a>
+                <a href=""><img src="sources/shapes/LinkedIn.svg" alt=""></a>
+                <div class="line"> — Follow us</div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>© 2022 Awesome Company Inc.</p>
+        </div>
+        <div class="bottom-text2">
+            <p>© 2022 Awesome Company Inc.</p>
+            <p><a href="">Home</a> | <a href="">Privacy Policy</a> | <a href="">Disclaimer</a> | <a href="">Contact
+                    us</a></p>
+            <div class="socials2">
+                <a href=""><img src="sources/shapes/Facebook.svg" alt=""></a>
+                <a href=""><img src="sources/shapes/Twitter.svg" alt=""></a>
+                <a href=""><img src="sources/shapes/LinkedIn.svg" alt=""></a>
+                <p> — Follow us</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        function fn() {
+            document.getElementById("slide-menu").style.display = "block";
+        }
+        function fn2() {
+            document.getElementById("slide-menu").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
